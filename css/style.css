@@ -35,8 +35,9 @@ span{
 	min-height: 300px;
 }
 .carousel-caption {
-	margin-bottom: 200px;
+	top: 200px;
 	background: #092605a8;
+	bottom: 180px;
 }
 .carousel-caption h5 {
 	font-size: 45px;
@@ -73,8 +74,8 @@ span{
 }
 .btn{
     color: white;
-	background: linear-gradient(to left, brown, #0d3a32);
-	border: none;
+    background: linear-gradient(to left, brown, #0d3a32);
+    border: none;
 }
 .btn:hover{
     transition: 2s;
@@ -282,9 +283,6 @@ span{
 	background-size: cover;
 	background-attachment: fixed;
 }
-.single-contact{
-	
-}
 .single-contact input{
 	background:  #464335ad;
     width: 100%;
@@ -292,14 +290,14 @@ span{
     border: none;
     border-bottom: 3px solid #ddd;
     margin-bottom: 30px;
-	outline: none;
+    outline: none;
 }
 .single-contact textarea{
     width: 100%;
     border: none;
     border-bottom: 3px solid #ddd;
-	background: #464335ad;
-	outline: none;
+    background: #464335ad;
+    outline: none;
 }
 input::placeholder, textarea::placeholder{
 	color: #eeede8b0;
@@ -312,7 +310,12 @@ input::placeholder, textarea::placeholder{
 		text-align: center;
 	}
 	.carousel-caption {
-		top: 110px;
+		top: 155px;
+		padding-bottom: 200px;
+	}
+	.carousel-caption h5 {
+		font-size: 35px;
+		margin-top: 10px;
 	}
 	.carousel-caption p {
 		width: 100%;
@@ -333,14 +336,16 @@ input::placeholder, textarea::placeholder{
 		margin-bottom: 10px;
 	}
 	.carousel-caption {
-		top: 100px;
+		top: 190px;
+		padding-bottom: 156px;
 	}
 	.carousel-caption h5 {
 		font-size: 17px;
+		margin-top: 8px
 	}
 	.carousel-caption a {
-		padding: 10px 15px;
-		font-size: 15px;
+		padding: 5px 8px !important;
+    		font-size: 12px;
 	}
 	.carousel-caption p {
 		width: 100%;
